@@ -8,6 +8,8 @@ Le système propose une architecture hybride capable d'analyser des transactions
 
 ## 🏛️ Architecture du Pipeline
 
+![Architecture du Pipeline](screenshots/architecture.png)
+
 L'architecture s'articule autour de quatre piliers principaux :
 
 1. **Ingestion Temps Réel (Streaming)** : 
@@ -20,6 +22,19 @@ L'architecture s'articule autour de quatre piliers principaux :
 4. **Supervision & Conformité (Dashboard & Audit)** : 
    - Une application **Streamlit** offre une vue d'ensemble sur les flux financiers, les alertes et les KPIs du système.
    - Un système de **Logs d'Audit** trace de manière immuable les décisions prises, garantissant la conformité réglementaire.
+
+---
+
+## 📸 Aperçu du Dashboard
+
+### Vue d'ensemble
+![Vue d'ensemble](screenshots/vue_ensemble.png)
+
+### Gestion des Alertes
+![Alertes AML](screenshots/alertes.png)
+
+### Analyse Temporelle
+![Analyse Temporelle](screenshots/analyse_temporelle.png)
 
 ---
 
