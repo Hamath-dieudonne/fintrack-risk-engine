@@ -1,0 +1,10 @@
+venv/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+data/users.csv
+data/transactions.csv
+data/roc_curve.csv
+data/transactions_enrichies.csv
+readm.md
